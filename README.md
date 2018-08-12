@@ -73,7 +73,7 @@ Since the project relies on a lot of environment variables, one needs to create 
 ```bash
 # For development environment
 
-$ cp env/properties_sample.env env/properties.env # Make a properties.env file from properties_sample.env
+$ cp env/properties.sample.env env/properties.env # Make a properties.env file from properties.sample.env
 
 ```
 Make changes in it according to the environment variables you need, we use [dotenv](https://www.npmjs.com/package/dotenv) which will read all environment variables from properties.env and set them on process.env
