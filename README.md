@@ -20,9 +20,18 @@
 
 - This repo holds the entire front end code base for React Express Boilerplate.The code is written in React 16, with node express server to act as a proxy layer between back-end and front-end.
 - We are using passport for google authentication http://www.passportjs.org/docs/google/
+- We are using ant design for styling our page https://ant.design/
 - This repo was bootstrapped with CRA(CREATE-REACT-APP) and has been ejected.
 - For styling we are using normal css with flex box
 - Test cases are written in Jest and snapshot tests in Enzyme
+
+## 🌆 Snapshots of the app
+<p align="center">
+<img src='http://res.cloudinary.com/railsway-herokuapp-com/image/upload/v1534085824/Screen_Shot_2018-08-12_at_9.53.33_PM_bqwu4j.png' />
+
+<img src='http://res.cloudinary.com/railsway-herokuapp-com/image/upload/v1534085831/Screen_Shot_2018-08-12_at_9.53.50_PM_msbewv.png' />
+</p>
+
 
 ## 📦 Table of Contents
 
