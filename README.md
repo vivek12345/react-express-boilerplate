@@ -69,9 +69,7 @@ $ cp env/properties_sample.env env/properties.env # Make a properties.env file f
 ```
 Make changes in it according to the environment variables you need, we use [dotenv](https://www.npmjs.com/package/dotenv) which will read all environment variables from properties.env and set them on process.env
 
-### For generating google oauth client id and client secrrt
-
-```
+### For generating google oauth client id and client secret
 
 Step 1: Go to the developer console: https://console.developers.google.com/
 
@@ -90,8 +88,6 @@ Step 4: Click save, and copy down the Client Id and Client Secret values that ar
 Step 5: 
 - Replace your `DASHBOARD_APP_GOOGLE_CLIENT_ID` with your own gmail client id in your properties.env file
 - Replace your `GOOGLE_CLIENT_SECRET` with your own gmail client secret in your properties.env file
-
-```
 
 ### For react and express project execution
 
