@@ -89,7 +89,8 @@
     ],
     "setupFiles": [
       "<rootDir>/client/config/polyfills.js",
-      "<rootDir>/client/config/jest/jestSetup.js"
+      "<rootDir>/client/config/jest/jestSetup.js",
+      "<rootDir>/client/src/__mocks__/browserMocks.js"
     ],
     "testMatch": [
       "<rootDir>/client/src/**/__tests__/**/*.{js,jsx,mjs}",

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import FooterLogo from '@src/assets/images/logo.png';
+import FooterLogo from '../../assets/images/logo.png';
 
 class Logo extends React.Component {
   render() {
