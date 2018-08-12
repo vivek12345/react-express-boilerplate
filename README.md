@@ -19,6 +19,7 @@
 [![Jest](https://img.shields.io/badge/Jest-22.4.3-lightgrey.svg)](https://jestjs.io/)
 
 - This repo holds the entire front end code base for React Express Boilerplate.The code is written in React 16, with node express server to act as a proxy layer between back-end and front-end.
+- We are using passport for google authentication http://www.passportjs.org/docs/google/
 - This repo was bootstrapped with CRA(CREATE-REACT-APP) and has been ejected.
 - For styling we are using normal css with flex box
 - Test cases are written in Jest and snapshot tests in Enzyme
@@ -67,6 +68,30 @@ $ cp env/properties_sample.env env/properties.env # Make a properties.env file f
 
 ```
 Make changes in it according to the environment variables you need, we use [dotenv](https://www.npmjs.com/package/dotenv) which will read all environment variables from properties.env and set them on process.env
+
+### For generating google oauth client id and client secrrt
+
+```
+
+Step 1: Go to the developer console: https://console.developers.google.com/
+
+Step 2: Look up ‘oauth credentials’ in the search bar, and click the single option that pops up.
+
+Step 3: Try to find the ‘Create credentials’ button. If you find it, go ahead and click on it. Choose ‘Oauth Client Id’ (figure 1).
+
+<img src='http://res.cloudinary.com/railsway-herokuapp-com/image/upload/v1534084971/google-oauth-keys_uql63s.png' />
+
+For application type, choose web application. Authorized origins and redirect URLs are a bit confusing, so I’ve just copy pasted a bunch of different options (figure 2) that have worked for me in the past. For production settings, you’ll probably want to be a bit more specific.
+
+<img src='http://res.cloudinary.com/railsway-herokuapp-com/image/upload/v1534084970/callback-googleoauth_vccfxf.png' />
+
+Step 4: Click save, and copy down the Client Id and Client Secret values that are hiding somewhere on the same page.
+
+Step 5: 
+- Replace your `DASHBOARD_APP_GOOGLE_CLIENT_ID` with your own gmail client id in your properties.env file
+- Replace your `GOOGLE_CLIENT_SECRET` with your own gmail client secret in your properties.env file
+
+```
 
 ### For react and express project execution
 
