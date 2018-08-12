@@ -1,0 +1,78 @@
+.site-footer {
+    background: #fff;
+    padding: 57px 0 40px;
+}
+
+.site-footer .widget {
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.site-footer .widget-title {
+    font-size: 16px;
+    line-height: 42px;
+    margin-right: 15px;
+    display: inline;
+}
+
+.widget-contact-us {
+    float: left;
+    margin-top: 12px;
+    margin-left: 10px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    padding-left: 12px;
+}
+
+.widget-contact-us i {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.widget-contact-us a {
+    color: #fff;
+}
+
+.widget-home {
+    border-top: 1px solid #e4e4e4;
+}
+
+.site-footer .widget-email {
+    margin-bottom: 2px;
+}
+
+.site-footer .foot-link {
+    font-size: 12px;
+}
+
+.site-footer .widget-title i {
+    font-size: 15px;
+    color: #18a566;
+    opacity: 0.9;
+    margin-right: 5px;
+}
+
+.widget_nav_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widget_nav_menu ul li {
+    line-height: 30px;
+}
+
+.widget_nav_menu ul li a {
+    display: inline-block;
+}
+
+.widget_nav_menu ul li a:hover {
+    padding-left: 3px;
+    color: #18a566;
+}
+
+@media screen and (min-width: 1025px) {
+    .site-brandl-logo-footer {
+        margin-top: 22px;
+        height: 30px;
+    }
+}

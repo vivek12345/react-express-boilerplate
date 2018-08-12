@@ -1,0 +1,40 @@
+.header.ant-layout-header {
+  display: flex;
+  flex-direction: row;
+}
+.header.ant-layout-header .ant-menu {
+    background: none;
+}
+.header.ant-layout-header .ant-menu-item-selected {
+    background-color: none;
+    color: #fff;
+}
+.header.ant-layout-header .logo {
+  width: 120px;
+  height: 31px;
+  background-size: cover;
+  background-position: 100%;
+  background: #fff;
+  margin: 16px 28px 16px 0;
+  padding: 1px 8px;
+}
+.header.ant-layout-header ul {
+  display: flex;
+  flex-direction: row;
+}
+.header.ant-layout-header .user-info {
+  position: absolute;
+  right: 64px;
+}
+.header.ant-layout-header .logout {
+  position: absolute;
+  right: 34px;
+}
+@media only screen and (max-device-width: 480px) {
+  .header.ant-layout-header {
+    padding: 0px 20px;
+  }
+  .header.ant-layout-header .logout {
+    right: 0;
+  }
+}
